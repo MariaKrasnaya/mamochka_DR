@@ -7,22 +7,22 @@
     padding: 10vw;
   }
   .text h1 {
-    font-size: 10vw;
-    line-height: 10.8vw;
+    font-size: 8.5vw;
+    line-height: 9.8vw;
   }
   .text p {
-    font-size: 6vw;
+    font-size: 5.5vw;
   }
   .me img {
     position: absolute;
-    top: 146vw;
+    top: 153vw;
     width: 76vw;
     left: -15vw;
   }
   .mama img {
     position: absolute;
     width: 80vw;
-    top: 146vw;
+    top: 151vw;
     margin-left: 30vw;
     z-index: 80;
   }
@@ -30,14 +30,14 @@
   .wave img {
     position: absolute;
     width: 100%;
-    top: 168vw;
+    top: 171vw;
   }
 
   .wave_high img {
     position: absolute;
     width: 100%;
     z-index: 100;
-    top: 173vw;
+    top: 198vw;
   }
 }
 

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "FliegeMono";
-  src: url("../fonts/FliegeMono-Regular.otf") format(otf);
+  src: url("../fonts/FliegeMono-Regular.otf") format(opentype);
   font-style: normal;
   font-weight: 400;
 }
@@ -11,15 +11,29 @@ body {
   height: 100vh;
 }
 .text {
+  font-family: "FliegeMono";
   width: 76vw;
   padding: 10vw;
   text-align: center;
 }
 
 .text h1 {
+  font-family: "FliegeMono";
   font-size: 6vw;
   padding-bottom: 2vw;
   color: rgb(246, 90, 129);
+  animation: h1 5s ease-in-out infinite;
+}
+@keyframes h1 {
+  0% {
+    color: rgb(246, 90, 129);
+  }
+  50% {
+    color: rgb(98, 0, 255);
+  }
+  100% {
+    color: rgb(246, 90, 129);
+  }
 }
 .text p {
   font-family: "FliegeMono";
@@ -31,7 +45,19 @@ body {
   position: absolute;
   top: 75vw;
   width: 50vw;
-  left: 0vw;
+  left: -6vw;
+  animation: me 2s ease-in-out infinite;
+}
+@keyframes me {
+  0% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
 }
 
 .wave img {
@@ -50,4 +76,17 @@ body {
   width: 54vw;
   top: 75vw;
   margin-left: 43vw;
+  animation: mama 2s ease-in-out infinite;
+}
+
+@keyframes mama {
+  0% {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(3deg);
+  }
 }
