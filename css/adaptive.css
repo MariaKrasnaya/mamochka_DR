@@ -1,5 +1,44 @@
 @media screen and (min-width: 1px) and (max-width: 450px) {
-  /*  мобилка  */
+  .section {
+    height: 100vh;
+  }
+  .text {
+    width: 83vw;
+    padding: 10vw;
+  }
+  .text h1 {
+    font-size: 10vw;
+    line-height: 10.8vw;
+  }
+  .text p {
+    font-size: 6vw;
+  }
+  .me img {
+    position: absolute;
+    top: 146vw;
+    width: 76vw;
+    left: -15vw;
+  }
+  .mama img {
+    position: absolute;
+    width: 80vw;
+    top: 146vw;
+    margin-left: 30vw;
+    z-index: 80;
+  }
+
+  .wave img {
+    position: absolute;
+    width: 100%;
+    top: 168vw;
+  }
+
+  .wave_high img {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    top: 173vw;
+  }
 }
 
 @media screen and (min-width: 451px) and (max-width: 768px) {
