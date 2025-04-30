@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "FliegeMono";
+  src: url("../fonts/FliegeMono-Regular.otf") format(otf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  display: flex;
+  background: rgb(157, 205, 255);
+}
+.text {
+  width: 76vw;
+  padding: 10vw;
+  text-align: center;
+}
+
+.text h1 {
+  font-size: 6vw;
+  padding-bottom: 2vw;
+  color: rgb(246, 90, 129);
+}
+.text p {
+  font-family: "FliegeMono";
+  color: rgb(33, 79, 205);
+  font-size: 4vw;
+}
+
+.me img {
+  position: absolute;
+  top: 75vw;
+  width: 50vw;
+  left: 0vw;
+}
+
+.wave img {
+  position: absolute;
+  width: 100%;
+}
+
+.wave_high img {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  top: 105vw;
+}
+.mama img {
+  position: absolute;
+  width: 54vw;
+  top: 75vw;
+  margin-left: 43vw;
+}
