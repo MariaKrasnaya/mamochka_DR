@@ -9,6 +9,7 @@ body {
   display: flex;
   background: rgb(157, 205, 255);
   height: 100vh;
+  overflow-x: hidden;
 }
 .text {
   font-family: "FliegeMono";
